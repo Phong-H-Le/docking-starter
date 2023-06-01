@@ -13,9 +13,9 @@ receptors_dir = "./"
 receptor_names = [fn for fn in os.listdir(receptors_dir) if fn.endswith(".pdb")]
 vina_location = "'C:/Program Files (x86)/The Scripps Research Institute/Vina/vina.exe'"
 output_location = "'C:/Users/phong/Desktop/Lynch Lab/PBP2a Docking/output2/test"
-xyz_cords = "30,28,86"
-xyz_size = "20,28,20"
-steps = 2000
+xyz_cords = "-29.1,27.7,17.7"
+xyz_size = "22,20,20"
+steps = 4000
 
 def get_atom(model_number, sub_model_number, residue_number, atom_names):
     model_number = int(model_number)
